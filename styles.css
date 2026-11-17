@@ -2067,3 +2067,71 @@ body.single-view .footer {
     min-height: 85px;
     box-sizing: border-box;
 }
+
+
+/* ========================================
+   CONTACTO - DISEÑO RESPONSIVE PARA MÓVIL
+======================================== */
+
+@media (max-width: 768px) {
+
+    .contact-panel {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        gap: 28px;
+        padding: 28px 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .contact-copy {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .contact-copy h2 {
+        font-size: clamp(30px, 7vw, 42px);
+        line-height: 1.15;
+    }
+
+    .contact-details {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        gap: 12px;
+        width: 100%;
+        min-width: 0;
+    }
+
+    .contact-detail {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        min-width: 0;
+        min-height: 76px;
+        box-sizing: border-box;
+        padding: 15px;
+        gap: 12px;
+    }
+
+    .contact-detail > span:nth-child(2) {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .contact-detail strong {
+        display: block;
+        overflow-wrap: anywhere;
+        word-break: normal;
+        line-height: 1.4;
+    }
+
+    .contact-detail small {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .contact-detail b {
+        flex-shrink: 0;
+    }
+
+}
