@@ -2165,3 +2165,103 @@ body.single-view .footer {
     }
 }
 
+
+/* ==========================================
+   NAVBAR MÓVIL - REDISEÑO Y MEJOR LEGIBILIDAD
+========================================== */
+
+@media (max-width: 820px) {
+
+    /* Barra superior */
+    .navbar {
+        height: 82px !important;
+    }
+
+    .nav-container {
+        padding: 0 22px !important;
+        gap: 12px !important;
+    }
+
+    /* Nombre */
+    .brand-mark {
+        font-size: 21px !important;
+        letter-spacing: -1px !important;
+    }
+
+    /* Botón hamburguesa */
+    .menu-toggle {
+        width: 52px !important;
+        height: 52px !important;
+        min-width: 52px !important;
+    }
+
+    .menu-toggle span {
+        width: 29px !important;
+        height: 2.5px !important;
+    }
+
+    /* Menú desplegable */
+    .nav-links {
+        top: 82px !important;
+        padding: 24px 25px !important;
+        gap: 8px !important;
+    }
+
+    /* Enlaces */
+    .nav-links .nav-link {
+        display: flex !important;
+        align-items: center !important;
+        width: 100% !important;
+        min-height: 65px !important;
+        padding: 16px 18px !important;
+
+        font-size: 21px !important;
+        font-weight: 700 !important;
+        letter-spacing: 0.2px !important;
+
+        border-bottom: 1px solid rgba(173,195,226,.13);
+        border-radius: 9px;
+    }
+
+    /* Sección seleccionada */
+    .nav-links .nav-link.active {
+        color: #63a4ff !important;
+        background: rgba(54,124,255,.10);
+    }
+
+    /* Descarga CV */
+    .nav-cv {
+        width: 46px !important;
+        height: 46px !important;
+        min-width: 46px !important;
+    }
+
+    /* Selector de idioma */
+    .language-toggle {
+        height: 46px !important;
+        min-width: 65px !important;
+        font-size: 15px !important;
+    }
+}
+
+/* Ajustes para teléfonos pequeños */
+@media (max-width: 560px) {
+
+    .nav-container {
+        padding: 0 14px !important;
+        gap: 8px !important;
+    }
+
+    .brand-mark {
+        font-size: 19px !important;
+    }
+
+    .nav-links {
+        padding: 20px 18px !important;
+    }
+
+    .nav-links .nav-link {
+        font-size: 20px !important;
+        min-height: 62px !important;
+    }
+}
