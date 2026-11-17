@@ -2117,3 +2117,51 @@ body.single-view .footer {
     }
 
 }
+
+
+/* =========================================
+   NAVBAR - OPTIMIZACIÓN PARA MÓVILES
+========================================= */
+
+@media (max-width: 768px) {
+
+    /* Menú desplegable */
+    .nav-links {
+        gap: 8px;
+        padding: 18px 16px;
+    }
+
+    /* Enlaces del navbar */
+    .nav-links .nav-link {
+        font-size: 19px !important;
+        font-weight: 600;
+        padding: 16px 20px;
+        min-height: 54px;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    /* Efecto al seleccionar */
+    .nav-links .nav-link:active {
+        background: rgba(54, 124, 255, 0.12);
+    }
+
+    /* Botón hamburguesa */
+    .menu-toggle {
+        width: 48px;
+        height: 48px;
+        min-width: 48px;
+    }
+
+    .menu-toggle span {
+        width: 27px;
+        height: 2px;
+    }
+
+    /* Nombre del portafolio */
+    .brand {
+        font-size: 21px;
+    }
+}
+
