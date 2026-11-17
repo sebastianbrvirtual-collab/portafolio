@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080d18">
+  <meta name="description" content="Portafolio profesional de Sebastián Bernal Ramírez, Ingeniero de Sistemas con experiencia como Analista en proyectos del sector financiero, operaciones transaccionales, desarrollo web y soporte tecnológico.">
+  <title>Sebastián Bernal | Systems Engineer · Data & Technology</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a class="brand" href="#inicio" aria-label="Sebastian Bernal, ir al inicio"><span class="brand-mark">SEBASTIAN BERNAL</span><span class="brand-caption">INGENIERO DE SISTEMAS</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="primaryNav"><span></span><span></span><span></span></button>
+      <nav class="nav-links" id="primaryNav" aria-label="Navegación principal">
+        <a class="nav-link active" href="#inicio">Inicio</a>
+        <a class="nav-link" href="#perfil">Perfil</a>
+        <a class="nav-link" href="#experiencia">Experiencia</a>
+        <a class="nav-link" href="#proyectos">Proyectos</a>
+        <a class="nav-link" href="#competencias">Competencias</a>
+        <a class="nav-link" href="#formacion">Formación</a>
+        <a class="nav-link" href="#contacto">Contacto</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="nav-cv" href="assets/documents/hoja_de_vida_sebastian_bernal_actualizada.pdf" download>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M4 17v3h16v-3"/></svg>
+          <span>Descargar CV</span>
+        </a>
+        <div class="language-switcher" id="languageSwitcher">
+          <button class="language-toggle" id="languageToggle" type="button"
+                  aria-label="Cambiar idioma" aria-expanded="false" aria-haspopup="true">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg>
+            <span id="currentLanguage">ES</span>
+            <svg class="language-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          <div class="language-menu" id="languageMenu" role="menu" hidden>
+            <button type="button" class="language-option active" data-language="es" role="menuitem">
+              <span class="language-flag" aria-hidden="true">🇨🇴</span> Español
+              <span class="language-check" aria-hidden="true">✓</span>
+            </button>
+            <button type="button" class="language-option" data-language="en" role="menuitem">
+              <span class="language-flag" aria-hidden="true">🇺🇸</span> English
+              <span class="language-check" aria-hidden="true">✓</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-anchor" id="inicio">
+      <div class="hero-grid-lines" aria-hidden="true"></div>
+      <div class="hero-container">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> INGENIERO DE SISTEMAS · BOGOTÁ, COLOMBIA</p>
+          <p class="hero-name">SEBASTIAN <span>BERNAL</span></p>
+          <h1>Conecto <span class="gradient-text">datos, tecnología</span> y soluciones.</h1>
+          <p class="hero-description">Ingeniero de Sistemas con experiencia como Analista en proyectos del sector financiero, operaciones transaccionales y soporte tecnológico. También desarrollo soluciones web y flujos de automatización.</p>
+          <div class="hero-tags" aria-label="Áreas profesionales"><span>Data Governance</span><span>SQL & Databases</span><span>Web Development</span><span>IT Support</span></div>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#experiencia">Conocer mi experiencia <span aria-hidden="true">↗</span></a>
+            <a class="button button-secondary" href="#proyectos">Ver proyectos</a>
+          </div>
+          <div class="hero-note"><span class="note-line"></span> Experiencia en proyectos empresariales del sector financiero</div>
+        </div>
+        <div class="hero-visual" aria-label="Ilustración de análisis y gestión de datos">
+          <div class="visual-orbit orbit-one"></div><div class="visual-orbit orbit-two"></div>
+          <div class="data-panel">
+            <div class="panel-top"><div class="panel-dots"><i></i><i></i><i></i></div><span>DATA OVERVIEW</span><span class="panel-live">● DATA</span></div>
+            <div class="panel-heading"><div><small>INFORMACIÓN · ANÁLISIS</small><strong>Data intelligence</strong></div><span class="panel-icon">⌘</span></div>
+            <div class="metric-row"><div class="metric-card"><small>DATA QUALITY</small><strong>RULES</strong><span>Completitud · Validez</span></div><div class="metric-card"><small>SQL</small><strong>SELECT</strong><span>Consulta y análisis</span></div></div>
+            <div class="chart-card"><div class="chart-title"><span>Data flow</span><span>● Relational model</span></div><div class="chart-bars"><i style="height:38%"></i><i style="height:58%"></i><i style="height:45%"></i><i style="height:78%"></i><i style="height:62%"></i><i style="height:92%"></i><i style="height:70%"></i><i style="height:100%"></i><i style="height:83%"></i></div><div class="chart-axis"><span>INPUT</span><span>PROCESS</span><span>INSIGHT</span></div></div>
+            <div class="panel-footer"><span><b></b> Governance</span><span><b></b> Analytics</span><span><b></b> Technology</span></div>
+          </div>
+          <div class="floating-chip chip-sql"><span>⌘</span> SQL · DATABASES</div>
+          <div class="floating-chip chip-data"><span>◈</span> SYSTEMS ENGINEER</div>
+        </div>
+      </div>
+      <div class="hero-bottom"><span>SELECCIONA UNA SECCIÓN PARA CONOCER MÁS</span><span class="scroll-line"></span><span>01 / 07</span></div>
+    </section>
+
+    <section class="section profile-section section-anchor" id="perfil">
+      <div class="section-container">
+        <div class="section-heading"><p class="section-kicker">01 · PERFIL PROFESIONAL</p><h2>Una visión integral de la <span class="gradient-text">tecnología.</span></h2></div>
+        <div class="profile-layout">
+          <div class="profile-intro"><p>Soy Ingeniero de Sistemas con experiencia como Analista en proyectos empresariales, operaciones transaccionales, gestión de información, soporte tecnológico y desarrollo de soluciones digitales.</p><p>A través de Inetum participé en proyectos del sector financiero relacionados con gestión y calidad de datos, catalogación de metadatos, trazabilidad, conciliaciones y análisis de información. Complemento esta experiencia con desarrollo web y automatización de procesos.</p><a class="text-link" href="#contacto">Hablemos de oportunidades <span>↗</span></a></div>
+          <div class="profile-pillars">
+            <article class="pillar-card"><span class="pillar-number">01</span><div class="pillar-icon">◈</div><h3>Datos y análisis</h3><p>Gobierno, calidad, catalogación, SQL y análisis de información.</p></article>
+            <article class="pillar-card"><span class="pillar-number">02</span><div class="pillar-icon">⌘</div><h3>Desarrollo y automatización</h3><p>Soluciones web, integración de herramientas y flujos automatizados.</p></article>
+            <article class="pillar-card"><span class="pillar-number">03</span><div class="pillar-icon">⌁</div><h3>Operaciones y soporte</h3><p>Procesos transaccionales, soporte N1/N2 y gestión de incidentes.</p></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experience-section section-anchor" id="experiencia">
+      <div class="section-container">
+        <div class="section-heading"><p class="section-kicker">02 · TRAYECTORIA</p><h2>Experiencia <span class="gradient-text">profesional.</span></h2><p class="section-subtitle">Experiencia en entornos empresariales, proyectos tecnológicos y atención de requerimientos.</p></div>
+        <div class="experience-list">
+          <article class="experience-card featured-experience"><div class="experience-date">ENE 2024 — NOV 2026</div><div class="experience-main"><div class="experience-company"><h3>Inetum</h3><span class="company-context">Proyectos para el sector financiero · BBVA</span></div><div class="role-block"><div class="role-heading"><h4>Analista · Proyecto de Gobierno de Datos</h4><span>AGO 2025 — NOV 2026</span></div><ul><li>Identificación y articulación de Data Owners y Data Stewards por dominio y entidad de negocio.</li><li>Diseño e implementación de reglas de calidad de datos: completitud, validez, consistencia y unicidad.</li><li>Estructuración de diccionarios de datos y catalogación de metadatos, incluyendo definiciones conceptuales, técnicas y de linaje.</li><li>Ejecución de cargues masivos y consolidación de trazabilidad de iniciativas, responsables y matrices de gobernanza.</li><li>Seguimiento a lineamientos y políticas corporativas de gobierno de información.</li></ul></div><div class="role-block"><div class="role-heading"><h4>Analista Transaccional</h4><span>ENE 2024 — AGO 2025</span></div><ul><li>Monitoreo, validación y procesamiento de transacciones financieras.</li><li>Conciliaciones bancarias y revisión de saldos para identificar discrepancias operativas.</li><li>Extracción y consolidación de datos mediante SQL para reportes, auditoría y tableros de control.</li><li>Análisis de anomalías transaccionales y coordinación con equipos de TI para identificar causas raíz.</li></ul></div></div></article>
+          <article class="experience-card"><div class="experience-date">FEB 2023 — DIC 2023</div><div class="experience-main"><div class="experience-company"><h3>Independiente / Freelance</h3><span class="company-context">Desarrollo y soluciones digitales</span></div><div class="role-block"><div class="role-heading"><h4>Desarrollador web y consultor en automatización con IA</h4></div><ul><li>Diseño, desarrollo y publicación de sitios web responsivos con JavaScript, HTML5 y CSS3.</li><li>Construcción de flujos con Make, integrando plataformas SaaS, CRM y formularios.</li><li>Integración de modelos de IA mediante APIs para clasificación de solicitudes y optimización de procesos.</li><li>Levantamiento de requerimientos y elaboración de documentación técnica y manuales de usuario.</li></ul></div></div></article>
+          <article class="experience-card"><div class="experience-date">AGO 2022 — FEB 2023</div><div class="experience-main"><div class="experience-company"><h3>Atento</h3><span class="company-context">Soporte y atención de requerimientos</span></div><div class="role-block"><div class="role-heading"><h4>Especialista en Soporte Técnico (N1 / N2)</h4></div><ul><li>Diagnóstico, solución y escalamiento de incidentes de conectividad y redes LAN/WLAN.</li><li>Configuración de módems y routers, y gestión de casos mediante mesa de ayuda.</li><li>Seguimiento de acuerdos de nivel de servicio (SLA) y documentación de soluciones para la base de conocimiento.</li></ul></div></div></article>
+          <article class="experience-card"><div class="experience-date">AGO 2021 — JUL 2022</div><div class="experience-main"><div class="experience-company"><h3>Estructuras Metálicas LHB</h3><span class="company-context">Gestión de información</span></div><div class="role-block"><div class="role-heading"><h4>Auxiliar de Datos y Gestión Documental</h4></div><ul><li>Captura, validación y actualización de registros de inventario, compras y producción.</li><li>Depuración de inconsistencias para preservar la integridad, exactitud y trazabilidad de los datos.</li></ul></div></div></article>
+        </div>
+        <p class="experience-footnote">La experiencia en BBVA corresponde a proyectos desarrollados a través de Inetum.</p>
+      </div>
+    </section>
+
+    <section class="section projects-section section-anchor" id="proyectos">
+      <div class="section-container">
+        <div class="section-heading"><p class="section-kicker">03 · TRABAJO APLICADO</p><h2>Proyectos y <span class="gradient-text">aplicaciones.</span></h2><p class="section-subtitle">Una selección de trabajos web y ejercicios técnicos. Los proyectos de práctica están identificados como tales.</p></div>
+        <div class="projects-grid">
+          <article class="project-card project-featured"><div class="project-visual web-visual"><div class="browser-bar"><i></i><i></i><i></i><span>karmaselsoluciones.github.io</span></div><div class="web-preview"><div class="web-preview-nav">KART<span>&</span>DESING <small>INICIO　 PRODUCTOS　 ACABADOS　 CONTACTO</small></div><div class="web-preview-copy"><small>DISEÑO Y OPTIMIZACIÓN DE ESPACIOS</small><strong>Muebles diseñados<br> a tu medida</strong><span>Diseño · Funcionalidad · Calidad</span></div></div></div><div class="project-content"><div class="project-meta"><span class="project-type">PROYECTO WEB</span><span class="project-status">Publicado</span></div><h3>Kart & Desing</h3><p>Desarrollo de un sitio web para un negocio de diseño y fabricación de muebles personalizados, con presentación de servicios y contenido adaptable a distintos dispositivos.</p><div class="tag-list"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>GitHub Pages</span></div><a class="project-link" href="https://karmaselsoluciones.github.io/Kart-Desing/" target="_blank" rel="noopener noreferrer">Visitar proyecto <span>↗</span></a></div></article>
+          <article class="project-card"><div class="project-visual sql-visual"><div class="code-window"><div class="code-title"><span>database.sql</span><span>POSTGRESQL</span></div><pre><code><em>SELECT</em> c.nombre AS cliente,
+       <b>SUM</b>(v.total) <em>AS</em> ventas
+<em>FROM</em> clientes c
+<em>JOIN</em> ventas v
+  <em>ON</em> c.id = v.cliente_id
+<em>GROUP BY</em> c.id_cliente, c.nombre
+<em>ORDER BY</em> ventas <em>DESC</em>;</code></pre></div></div><div class="project-content"><div class="project-meta"><span class="project-type">BASES DE DATOS</span><span class="project-status practice">Práctica</span></div><h3>Análisis relacional con SQL</h3><p>Base de datos de práctica con clientes, productos y ventas para consultar, relacionar y resumir información mediante SQL, Excel y Power BI.</p><div class="tag-list"><span>SQL</span><span>PostgreSQL</span><span>JOIN</span><span>Agregaciones</span></div><span class="project-note">Proyecto de aprendizaje aplicado</span></div></article>
+          <article class="project-card"><div class="project-visual governance-visual"><div class="governance-map"><div class="gov-node central">DATA<br>GOVERNANCE</div><div class="gov-node node-a">OWNER</div><div class="gov-node node-b">STEWARD</div><div class="gov-node node-c">QUALITY</div><div class="gov-line line-a"></div><div class="gov-line line-b"></div><div class="gov-line line-c"></div></div></div><div class="project-content"><div class="project-meta"><span class="project-type">GOBIERNO DE DATOS</span><span class="project-status practice">Caso demostrativo</span></div><h3>Modelo de responsabilidades y calidad</h3><p>Propuesta demostrativa para organizar Data Owners, Data Stewards, metadatos y reglas de calidad en un dominio de información.</p><div class="tag-list"><span>Data Ownership</span><span>Data Quality</span><span>Metadata</span></div><span class="project-note">Ejemplo conceptual; no contiene información de clientes</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section section-anchor" id="competencias">
+      <div class="section-container">
+        <div class="section-heading"><p class="section-kicker">04 · CONOCIMIENTOS</p><h2>Competencias <span class="gradient-text">técnicas.</span></h2><p class="section-subtitle">Herramientas y áreas de conocimiento presentes en mi experiencia y formación.</p></div>
+        <div class="skills-grid">
+<article class="skill-card">
+    <div class="skill-icon">◈</div>
+    <h3>Gobierno y calidad de datos</h3>
+    <p>Experiencia aplicada</p>
+    <div class="skill-items">
+        <span>Data Owners / Stewards</span>
+        <span>Catalogación de metadatos</span>
+        <span>Diccionarios de datos</span>
+        <span>Data Quality y trazabilidad</span>
+    </div>
+</article>
+
+<article class="skill-card">
+    <div class="skill-icon">⌘</div>
+    <h3>Bases de datos y SQL</h3>
+    <p>Experiencia y formación</p>
+    <div class="skill-items">
+        <span>SQL y modelado relacional</span>
+        <span>MySQL · IBM DB2 · SQL Server</span>
+        <span>PostgreSQL en formación práctica</span>
+        <span>Extracción y consolidación</span>
+    </div>
+</article>
+
+<article class="skill-card">
+    <div class="skill-icon">⌁</div>
+    <h3>Desarrollo</h3>
+    <p>Experiencia aplicada</p>
+    <div class="skill-items">
+        <span>HTML5 · CSS3 · JavaScript ES6+</span>
+        <span>APIs REST y webhooks</span>
+        <span>Make (Integromat)</span>
+        <span>COBOL y procesamiento Batch</span>
+    </div>
+</article>
+
+<article class="skill-card">
+    <div class="skill-icon">⌖</div>
+    <h3>Operaciones y soporte TI</h3>
+    <p>Experiencia aplicada</p>
+    <div class="skill-items">
+        <span>Operaciones transaccionales</span>
+        <span>Conciliaciones financieras</span>
+        <span>Redes TCP/IP · LAN/WLAN</span>
+        <span>Soporte N1/N2 · SLA · ITIL</span>
+    </div>
+</article>
+
+<article class="skill-card">
+    <div class="skill-icon">✓</div>
+    <h3>Calidad y pruebas</h3>
+    <p>Conocimientos técnicos</p>
+    <div class="skill-items">
+        <span>Integridad referencial</span>
+        <span>QA y debugging</span>
+        <span>Pruebas unitarias en Java</span>
+    </div>
+</article>
+
+<article class="skill-card">
+    <div class="skill-icon">◎</div>
+    <h3>Atención y documentación</h3>
+    <p>Experiencia profesional</p>
+    <div class="skill-items">
+        <span>Atención de requerimientos</span>
+        <span>Gestión de incidentes</span>
+        <span>Documentación técnica</span>
+        <span>Manuales y base de conocimiento</span>
+    </div>
+</article>
+
+        </div>
+        <div class="learning-strip"><div><span class="learning-label">EN FORMACIÓN</span><h3>Ampliando conocimientos en análisis de bases de datos.</h3><p>Actualmente fortaleciendo SQL, fundamentos de bases de datos y modelado relacional. También continúo aprendiendo Excel y automatización.</p></div><div class="learning-tools"><span>SQL</span><span>Excel</span><span>Make Academy</span></div></div>
+      </div>
+    </section>
+
+    <section class="section education-section section-anchor" id="formacion">
+      <div class="section-container education-layout">
+        <div><p class="section-kicker">05 · FORMACIÓN</p><h2>Formación y <span class="gradient-text">aprendizaje.</span></h2><p class="section-subtitle">Base académica y formación técnica complementaria.</p></div>
+        <div class="education-list">
+          <article class="education-item"><span class="education-year">2022</span><div><h3>Técnico Analista de Programación, Redes y Bases de Datos</h3><p>Universidad Latinoamericana en Línea (UTEL)</p></div></article>
+          <article class="education-item"><span class="education-year">2023</span><div><h3>Ingeniería en Sistemas</h3><p>Universidad Latinoamericana en Línea (UTEL)</p></div></article>
+          <article class="education-item"><span class="education-year">2025</span><div><h3>Especialización técnica en COBOL, Batch, DB2, SQL y pruebas unitarias en Java</h3><p>Inetum</p></div></article>
+          <article class="education-item"><span class="education-year">2026</span><div><h3>Análisis de Bases de Datos</h3><p>Formación complementaria</p></div></article>
+          <article class="education-item"><span class="education-year">Formación</span><div><h3>Fundamentos y Automatización de Procesos con IA</h3><p>Make Academy</p></div></article>
+        </div>
+        <div class="language-row"><div><span>IDIOMAS</span><strong>Español</strong><small>Nativo</small></div><div><strong>Inglés</strong><small>Intermedio / técnico · Lectura e interpretación de documentación de software</small></div></div>
+      </div>
+    </section>
+
+
+<section class="section contact-section section-anchor" id="contacto">
+    <div class="section-container">
+        <div class="contact-panel">
+
+            <!-- COLUMNA IZQUIERDA -->
+            <div class="contact-copy">
+                <p class="section-kicker">06 · CONTACTO</p>
+
+                <h2>
+                    Conversemos sobre tu
+                    <span class="gradient-text">próximo proyecto.</span>
+                </h2>
+
+                <p>
+                    Estoy abierto a oportunidades profesionales en datos,
+                    tecnología, operaciones y desarrollo de soluciones digitales.
+                </p>
+
+                <a
+                    class="button button-primary"
+                    href="https://mail.google.com/mail/?view=cm&fs=1&to=sebastianbr.virtual@gmail.com&su=Oportunidad%20profesional%20-%20Sebastián%20Bernal"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <span>Enviar un correo</span>
+                    <span>↗</span>
+                </a>
+            </div>
+
+            <!-- COLUMNA DERECHA -->
+            <div class="contact-details">
+
+                  <a class="contact-detail"
+                    href="https://www.linkedin.com/in/sebastian-bernal-ramirez-8928941aa/"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                <span class="detail-icon">in</span>
+
+                <span>
+                  <small>LINKEDIN</small>
+                  <strong>Ver perfil profesional</strong>
+                </span>
+
+            <b>↗</b>
+          </a>
+
+                <a class="contact-detail"
+                   href="tel:+573102525565">
+                    <span class="detail-icon">⌕</span>
+                    <span>
+                        <small>TELÉFONO</small>
+                        <strong>+57 310 252 5565</strong>
+                    </span>
+                    <b>↗</b>
+                </a>
+
+                <a class="contact-detail"
+                   href="https://github.com/sebastianbrvirtual-collab"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    <span class="detail-icon">⌘</span>
+                    <span>
+                        <small>GITHUB</small>
+                        <strong>sebastianbrvirtual-collab</strong>
+                    </span>
+                    <b>↗</b>
+                </a>
+
+                <a class="contact-detail"
+                   href="https://wa.me/573102525565"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    <span class="detail-icon">◉</span>
+                    <span>
+                        <small>WHATSAPP</small>
+                        <strong>Enviar mensaje</strong>
+                    </span>
+                    <b>↗</b>
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+    </section>
+  </main>
+
+  <footer class="footer"><div class="footer-container"><a class="footer-brand" href="#inicio">Sebastian Bernal<span>.</span></a><p>© <span id="currentYear"></span> Sebastian Bernal. Portafolio profesional.</p></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
